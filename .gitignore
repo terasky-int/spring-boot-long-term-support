@@ -1,0 +1,74 @@
+# Ignore Maven target directory
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Ignore compiled Java classes
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.backup
+
+# Ignore Eclipse project files (if applicable)
+.project
+.classpath
+.settings/
+
+# Ignore Gradle (if applicable)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore test reports
+surefire-reports/
+test-output/
+
+# Ignore application-specific files
+.env
+.env.local
+.env.test
+.env.production
+config/
+secrets/
+db/
+database/
+
+# Ignore generated files
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore Kubernetes manifests (if applicable)
+k8s/
+*.yaml
+*.yml
+
+# Ignore dependency caches
+.mvn/
+node_modules/
+vendor/
+
+# Ignore Jib Docker build cache
+jib-cache/

@@ -1,0 +1,9 @@
+2025-01-30 10:03:26: *****************************************************************************
+2025-01-30 10:03:26: *                     Started SBOM Collection                               *
+2025-01-30 10:03:26: *****************************************************************************
+2025-01-30 10:08:10: *****************************************************************************
+2025-01-30 10:08:10: *                     Started SBOM Collection                               *
+2025-01-30 10:08:10: *****************************************************************************
+2025-01-30 10:08:11: Executing command: cd /Users/elad/Desktop/workspace/simple-spring-boot-app
+2025-01-30 10:08:12: Executing command: mvn -q org.cyclonedx:cyclonedx-maven-plugin:2.7.11:makeAggregateBom -DoutputDirectory=/Users/elad/Desktop/workspace/simple-spring-boot-app/assessment/sbom -DoutputName=${project.artifactId} -DschemaVersion=1.4 -Dcyclonedx.skipAttach=true -Dcyclonedx.skipNotDeployed=false -DoutputFormat=json
+2025-01-30 10:08:18: Executing command: rm -rf /Users/elad/Desktop/workspace/simple-spring-boot-app/assessment/sbom
